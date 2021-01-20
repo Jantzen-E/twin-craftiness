@@ -3,7 +3,6 @@ import React from 'react';
 function Home() {
     return(
         <div className="homePage">
-            <h1>Put the content of the page here</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
