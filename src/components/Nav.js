@@ -6,26 +6,26 @@ function Nav() {
         <div>
             <div className="title">
                 <h1>The Cute Craft Shack</h1>
-                <h2>Making crafts with the twins and Phoebe</h2>
+                <h4>Making crafts with the twins and Phoebe</h4>
             </div>
             <ul className="navbar">
                 <li>
-                    <NavLink to="/" activeStyle={{ color: '#6F7734'}} exact className="navbarLinks">
+                    <NavLink to="/" activeStyle={{ color: '#4E1D20'}} exact className="navbarLinks">
                     Home
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/about" activeStyle={{ color: '#6F7734'}} exact className="navbarLinks">
+                    <NavLink to="/about" activeStyle={{ color: '#4E1D20'}} exact className="navbarLinks">
                     About Us
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/contact" activeStyle={{ color: '#6F7734'}} exact className="navbarLinks">
+                    <NavLink to="/contact" activeStyle={{ color: '#4E1D20'}} exact className="navbarLinks">
                     Contact Us
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/gallery" activeStyle={{ color: '#6F7734'}} exact className="navbarLinks">
+                    <NavLink to="/gallery" activeStyle={{ color: '#4E1D20'}} exact className="navbarLinks">
                     Gallery
                     </NavLink>
                 </li>

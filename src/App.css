@@ -5,10 +5,12 @@
 
 h1 {
   color: #C87061;
+  margin-bottom: 10px;
 }
 
-h2 {
+h4 {
   color: #6F7734;
+  margin-top: 10px;
 }
 
 .navbarLinks {
@@ -22,6 +24,7 @@ h2 {
   text-align: center;
   padding: 2%;
   background-color: #6F7734;
+  margin-top: 20px;
 }
 
 h3 {
@@ -39,6 +42,7 @@ h3 {
   flex-direction: row;
   list-style-type: none;
   justify-content: center;
+  padding-bottom: 4%;
 }
 
 li {
@@ -63,7 +67,7 @@ li {
 }
 
 .galleryHeading {
-  color:rgb(133, 128, 211);
+  color: #4E1D20;
 }
 
 a {
@@ -77,6 +81,7 @@ img {
   margin: 20px;
   border: 1px solid #6F7734;
   border-radius: 10px;
+  box-shadow: 10px 8px 10px #4E1D20;
 }
 
 .gallery {
