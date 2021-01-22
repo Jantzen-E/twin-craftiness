@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background-color: #DED3BC
+  /* background-color: #DED3BC */
+  /* background: linear-gradient(red, yellow); */
 }
 
 h1 {
@@ -25,6 +26,7 @@ h4 {
   padding: 2%;
   background-color: #6F7734;
   margin-top: 20px;
+
 }
 
 h3 {
@@ -52,10 +54,16 @@ li {
   border: 3px solid #93BBBA;
 }
 
+.navbarLinks:hover {
+  color: rgb(160, 19, 241);
+}
+
 .homePage {
   text-align: center;
   background-image:url('https://thecheekyhomemaker.com/wp-content/uploads/2019/02/DIY-flower-pens-1024x768.jpg')
 }
+
+
 
 .about {
   text-align: center;
@@ -83,6 +91,10 @@ img {
   border: 1px solid #6F7734;
   border-radius: 10px;
   box-shadow: 10px 8px 10px #4E1D20;
+}
+
+img:hover {
+  box-shadow: 20px 18px 15px #4E1D20;
 }
 
 .gallery {
