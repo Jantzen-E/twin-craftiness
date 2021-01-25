@@ -63,20 +63,24 @@ li {
   background-image:url('https://thecheekyhomemaker.com/wp-content/uploads/2019/02/DIY-flower-pens-1024x768.jpg')
 }
 
-
-
 .about {
   text-align: center;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 3%;
 }
 
 .contact {
   text-align: center;
+  padding-bottom: 10%;
+  padding-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .galleryHeading {
   color: #4E1D20;
+  padding-bottom: 2%;
 }
 
 a {
@@ -84,7 +88,7 @@ a {
   text-decoration: underline;
 }
 
-img {
+.imageGrid {
   width: 300px;
   height: 400px;
   margin: 20px;
@@ -93,10 +97,17 @@ img {
   box-shadow: 10px 8px 10px #4E1D20;
 }
 
-img:hover {
+.imageGrid:hover {
   box-shadow: 20px 18px 15px #4E1D20;
 }
 
 .gallery {
   text-align: center;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+#footerImage {
+  width: 90px;
+  height: 90px;
 }

@@ -6,7 +6,6 @@ function Nav() {
         <div>
             <div className="title">
                 <h1>The Cute Craft Shack</h1>
-                <h4>Making crafts with the twins and Phoebe</h4>
             </div>
             <ul className="navbar">
                 <li>

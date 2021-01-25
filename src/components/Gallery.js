@@ -15,19 +15,19 @@ import washiPens from '../images/washiPens.jpg';
 function Gallery() {
     return(
         <div className="gallery">
-            <h1 className="galleryHeading">These are the things we have made so far but we are adding things often so check back soon for more!</h1>
-            <img src={ magnet } alt="magnet"></img>
-            <img src={ flowerPen } alt="flower pen"></img>
-            <img src={ flowerPens } alt="multiple flower pens"></img>
-            <img src={ hairClips } alt="hair clips"></img>
-            <img src={ hotPad } alt="hot pad"></img>
-            <img src={ jar } alt="gratitude jar"></img>
-            <img src={ bunny } alt="gratitude jar"></img>
-            <img src={ bracelets } alt="gratitude jar"></img>
-            <img src={ heartBracelet } alt="gratitude jar"></img>
-            <img src={ washCloth } alt="gratitude jar"></img>
-            <img src={ washRags } alt="gratitude jar"></img>
-            <img src={ washiPens } alt="gratitude jar"></img>
+            <h1 className="galleryHeading">Here are some things we have made so far but we are adding things often so check back soon for more!</h1>
+            <img src={ magnet } alt="magnet" className="imageGrid"></img>
+            <img src={ flowerPen } alt="flower pen" className="imageGrid"></img>
+            <img src={ flowerPens } alt="multiple flower pens" className="imageGrid"></img>
+            <img src={ hairClips } alt="hair clips" className="imageGrid"></img>
+            <img src={ hotPad } alt="hot pad" className="imageGrid"></img>
+            <img src={ jar } alt="gratitude jar" className="imageGrid"></img>
+            <img src={ bunny } alt="gratitude jar" className="imageGrid"></img>
+            <img src={ bracelets } alt="gratitude jar" className="imageGrid"></img>
+            <img src={ heartBracelet } alt="gratitude jar" className="imageGrid"></img>
+            <img src={ washCloth } alt="gratitude jar" className="imageGrid"></img>
+            <img src={ washRags } alt="gratitude jar" className="imageGrid"></img>
+            <img src={ washiPens } alt="gratitude jar" className="imageGrid"></img>
         </div>
     )
 }
