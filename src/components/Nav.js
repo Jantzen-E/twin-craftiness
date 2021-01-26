@@ -9,22 +9,22 @@ function Nav() {
             </div>
             <ul className="navbar">
                 <li>
-                    <NavLink to="/" activeStyle={{ color: '#4E1D20'}} exact className="navbarLinks">
+                    <NavLink to="/" activeStyle={{ color: '#8ACCFF' }} exact className="navbarLinks">
                     Home
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/about" activeStyle={{ color: '#4E1D20'}} exact className="navbarLinks">
+                    <NavLink to="/about" activeStyle={{ color: '#8ACCFF'}} exact className="navbarLinks">
                     About Us
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/contact" activeStyle={{ color: '#4E1D20'}} exact className="navbarLinks">
+                    <NavLink to="/contact" activeStyle={{ color: '#8ACCFF'}} exact className="navbarLinks">
                     Contact Us
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/gallery" activeStyle={{ color: '#4E1D20'}} exact className="navbarLinks">
+                    <NavLink to="/gallery" activeStyle={{ color: '#8ACCFF'}} exact className="navbarLinks">
                     Gallery
                     </NavLink>
                 </li>

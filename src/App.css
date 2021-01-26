@@ -1,11 +1,9 @@
 .App {
   text-align: center;
-  /* background-color: #DED3BC */
-  /* background: linear-gradient(red, yellow); */
 }
 
 h1 {
-  color: #C87061;
+  color: #FF8AA7;
   margin-bottom: 10px;
 }
 
@@ -24,7 +22,7 @@ h4 {
   align-items: center;
   text-align: center;
   padding: 2%;
-  background-color: #6F7734;
+  background-color: #8ACCFF;
   margin-top: 20px;
 
 }
@@ -32,6 +30,7 @@ h4 {
 h3 {
   padding-left: 5%;
   padding-right: 5%;
+  color: #FFF18A;
 }
 
 .title {
@@ -51,16 +50,30 @@ li {
   padding-left: 5%;
   padding-right: 5%;
   font-size: 3em;
-  border: 3px solid #93BBBA;
+  border: 5px solid #8ACCFF;
+}
+
+li:hover {
+  background-color: #FFF18A;
 }
 
 .navbarLinks:hover {
-  color: rgb(160, 19, 241);
+  color: #8ACCFF;
+  text-shadow: 2px 2px #FFF18A;
 }
 
 .homePage {
   text-align: center;
-  background-image:url('https://thecheekyhomemaker.com/wp-content/uploads/2019/02/DIY-flower-pens-1024x768.jpg')
+  background-image:url('https://thecheekyhomemaker.com/wp-content/uploads/2019/02/DIY-flower-pens-1024x768.jpg');
+  transition: .5s ease;
+}
+
+.homePage:hover {
+  -webkit-transform: scale(.7);
+  -ms-transform: scale(.7);
+  transform: scale(.7);
+  transition: 1s ease;
+  border: 19px solid #FFF18A;
 }
 
 .about {
@@ -79,26 +92,31 @@ li {
 }
 
 .galleryHeading {
-  color: #4E1D20;
+  color: #FF8AA7;
   padding-bottom: 2%;
 }
 
 a {
-  color: #C87061;
+  color: #FF8AA7;
   text-decoration: underline;
 }
 
 .imageGrid {
-  width: 300px;
-  height: 400px;
+  width: 15%;
+  height: 15%;
   margin: 20px;
-  border: 1px solid #6F7734;
+  border: 1px solid #36779C;
   border-radius: 10px;
-  box-shadow: 10px 8px 10px #4E1D20;
+  box-shadow: 10px 8px 10px #8ACCFF;
+  transition: .5s ease;
 }
 
 .imageGrid:hover {
-  box-shadow: 20px 18px 15px #4E1D20;
+  box-shadow: 20px 18px 15px #8ACCFF;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
 }
 
 .gallery {
@@ -110,4 +128,22 @@ a {
 #footerImage {
   width: 90px;
   height: 90px;
+  box-shadow: 10px 8px 10px #FFF18A;
+  transition: .5s ease;
+}
+
+#footerImage:hover {
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+  transition: 1s ease;
+}
+
+.email {
+  color: #8ACCFF;
+}
+
+.email:hover {
+  color: #FFF18A;
+  text-shadow: 2px 2px #FF8AA7;
 }
