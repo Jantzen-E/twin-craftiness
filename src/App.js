@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
 import Gallery from './components/Gallery';
+import './Responsive.css';
 
 export default class App extends Component {
   render() {

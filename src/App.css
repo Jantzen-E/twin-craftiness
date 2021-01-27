@@ -44,6 +44,7 @@ h3 {
   list-style-type: none;
   justify-content: center;
   padding-bottom: 4%;
+  /* align-items: center; */
 }
 
 li {
@@ -51,6 +52,7 @@ li {
   padding-right: 5%;
   font-size: 3em;
   border: 5px solid #8ACCFF;
+  text-align : center;
 }
 
 li:hover {
@@ -125,7 +127,7 @@ a {
   margin-right: 4%;
 }
 
-#footerImage {
+/* #footerImage {
   width: 90px;
   height: 90px;
   box-shadow: 10px 8px 10px #FFF18A;
@@ -137,10 +139,11 @@ a {
   -ms-transform: scale(1.4);
   transform: scale(1.4);
   transition: 1s ease;
-}
+} */
 
 .email {
   color: #8ACCFF;
+  text-align: center;
 }
 
 .email:hover {
